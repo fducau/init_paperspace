@@ -1,0 +1,51 @@
+================
+init commands
+================
+
+install slack
+	https://slack.com/downloads
+Menu integrated to windows:
+	"Appearance". Once the window opens, go to "Behavior" followed by "Show the menus for a window" and select the "In the window's title bar" radio button.
+
+
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+
+- python2 current version Python 2.7.6 instead of last one which fixes some bugs 2.7.13
+- python3 current version Python 3.4.3 instead of last one 3.5.2
+
+
+------------------------------
+pytorch (http://pytorch.org/)
+------------------------------
+python2.7: 
+-----------
+pip install https://s3.amazonaws.com/pytorch/whl/cu80/torch-0.1.8.post1-cp27-none-linux_x86_64.whl 
+pip install torchvision
+
+python3.5: 
+-----------
+python3.5: 
+-----------
+pip install https://s3.amazonaws.com/pytorch/whl/cu80/torch-0.1.8.post1-cp35-cp35m-linux_x86_64.whl 
+pip install torchvision
+
+----------
+tkinter
+----------
+python2.7: sudo apt-get install python-tk
+python3.5: sudo apt-get install python3-tk
+
+-----------------------------------
+jupyter-notebook w python 2 kernel
+-----------------------------------
+python2 -m pip install ipykernel
+python2 -m ipykernel install --user
+
+----------------------------------
+OpenAI GYM package
+----------------------------------
+sudo pip install gym
+sudo pip3 install gym
